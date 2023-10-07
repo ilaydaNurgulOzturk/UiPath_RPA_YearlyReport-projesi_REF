@@ -1,0 +1,349 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "rowCounter&Sequence_45",
+        "str_WorkItemMessage&Sequence_45",
+        "dt_Merge&Sequence_45",
+        "strYIL2022&Sequence_45",
+        "str_ReportFolderPath&Sequence_45",
+        "uie_ReportsBrowser&Sequence_45",
+        "str_GlobalYil&Sequence_45",
+        "str_GlobalAy&Sequence_45",
+        "str_TAXDetails&Sequence_45",
+        "TransactionData&StateMachine_1",
+        "uie_GlobalAcmeBrowser&StateMachine_1",
+        "str_WIIDNumber&Sequence_45",
+        "dtReport&StateMachine_1",
+        "DTFilt_GlobalAcme&Sequence_31",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/OpenLoginBrowser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_23",
+        "str_AssetName&Sequence_23",
+        "str_typeName&Sequence_23",
+        "str_username&Sequence_23",
+        "str_SeqName&Sequence_24",
+        "str_AcmeURL&Sequence_25",
+        "str_Sha1URL&Sequence_25",
+        "scstr_password&Sequence_26",
+        "scstr_password&Sequence_27",
+        "str_typeName&Sequence_28",
+        "str_ClickName&Sequence_29",
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_AcmeURL&Sequence_2",
+        "str_Sha1URL&Sequence_2",
+        "str_AssetName&Sequence_2",
+        "str_username&Sequence_3",
+        "scstr_password&Sequence_3",
+        "str_typeName&Sequence_4",
+        "str_typeName&Sequence_5",
+        "str_ClickName&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "uiE_AcmeBrowser",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/Data_ExtractionProcess.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT_WorkItems&Sequence_6",
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "Filtered_DTWorkItems&Sequence_2",
+        "str_ExcelPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "out_FilteredDTWorkItems",
+        "in_AcmeBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/Add_QueueItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Satici_Icin_Yillik_Rapor_Olusturma",
+        "in_DT_FilteredAcme"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/NavigateToSpecificWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Tarih&Sequence_5",
+        "str_WIID_number&Sequence_6",
+        "str_acmeDetailsURL&Sequence_6",
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2",
+        "Arr_StrGetTax&Sequence_3",
+        "str_GetTAX&Sequence_3",
+        "str_BackHomePage&Sequence_4",
+        "str_GetTarih&Sequence_5",
+        "Arr_StrGetTarih&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_WIIDNumber",
+        "in_TransactionData",
+        "str_TarihAY",
+        "str_TarihYil",
+        "str_TAXID",
+        "in_AcmeBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/ReportMonth.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_FolderPath&Sequence_1",
+        "str_year&Sequence_6",
+        "arr_Months&Sequence_6",
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_typeName&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "str_NewYil",
+        "in_Config",
+        "str_Yil",
+        "str_Ay",
+        "str_TAXID",
+        "str_ReportPath",
+        "in_Browser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/MergeExcelFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Reports&Sequence_2",
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "Report_FolderPath&Sequence_2",
+        "str_2022year&Sequence_2",
+        "dt_MonthlyReport&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Year",
+        "Out_ReportlyPath",
+        "in_TAXID",
+        "inReportPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/Upload_Report.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_CompletedMessage&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "uie_GlobalUploadBrowser",
+        "split_STR_CompletedMessage",
+        "in_PathFolder",
+        "in_Year",
+        "in_TAXID"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/UpdateWorkItemDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_ClickName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_UpdateMessage",
+        "in_WIIDNumber",
+        "in_AcmeBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/WorkflowTestCaseTemplate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/InitAllSettingsTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../Desktop/uiPath/RPA Developer Advanced/Native_AcmeSystem1_Sureci/1.ÿnit/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_2",
+        "str_SeqName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_SeqName&Sequence_2",
+        "str_WorkflowName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../Desktop/uiPath/RPA Developer Advanced/Native_AcmeSystem1_Sureci/1.ÿnit/Queue_Cleaning.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkflowName&Sequence_1",
+        "str_SeqName&Sequence_1",
+        "str_quequePath&Sequence_16",
+        "queue_İtems&Sequence_16"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/cleanWF.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_SeqName&Sequence_1",
+        "str_WorkflowName&Sequence_1",
+        "str_quequePath&Sequence_2",
+        "queue_İtems&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionData",
+        "io_dtReport",
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Satici_Icin_Yillik_Rapor_Olusturma/writeToExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_SeqName&Sequence_1",
+        "str_WorkflowName&Sequence_1",
+        "str_ExcelPath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_FiltAcmeGlobal",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
